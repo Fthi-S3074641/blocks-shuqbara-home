@@ -1,56 +1,58 @@
 <template>
-  <v-app id="inspire">
+  <v-parallax
+    dark
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    height="100%"
+  >
+  <div>
+  <v-layout class="display-2 font-weight-thin mb-3">
+
+      <v-spacer/>
+        <v-btn flat class=" flat white--text" v-for="(item, index) in menuItems" :key="index" :to="item.link" >
+          {{item.title}}
+        </v-btn>
+    </v-layout>
+
     <v-content>
-      <v-container fluid fill-height grid-list-md>
-        <v-layout wrap align-center justify-center>
-          <v-flex xs12 sm8 md4>
-            <v-card class="elevation-12">
-              <v-toolbar dark color="primary">
-                <v-toolbar-title class="headline">Shuqbara Consultancy</v-toolbar-title>
-                <v-spacer></v-spacer>
-                <v-tooltip bottom>
-                  <template v-slot:activator="{ on }">
-                    <v-btn :href="source" icon large target="_blank" v-on="on">
-                      <v-icon large>person</v-icon>
-                    </v-btn>
-                  </template>
-                  <span>Source</span>
-                </v-tooltip>
-                <v-tooltip right>
-                  <template v-slot:activator="{ on }">
-                    <v-btn icon large href="https://www.facebook.com" target="_blank" v-on="on">
-                      <v-icon large>person</v-icon>
-                    </v-btn>
-                  </template>
-                  <span>Codepen</span>
-                </v-tooltip>
-              </v-toolbar>
-              <v-img 
-              src="https://github.com/Fthi-S3074641/Shuqbara-axum/blob/master/shuqbara.png?raw=true"
-              height="200px"
-              > </v-img>
-                
-              <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn color="primary">Download APP</v-btn>
-                <v-btn color="primary">Scan QR code</v-btn>
-                <v-btn color="primary">Web version</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-        </v-layout>
+      <v-container fluid>
+        <router-view></router-view>
       </v-container>
     </v-content>
-  </v-app>
+
+</div>
+  </v-parallax>
 </template>
 
+
 <script>
-  export default {
-    data: () => ({
-      drawer: null
-    }),
-    props: {
-      source: String
+export default {
+  name: 'app',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    goHome(){
+      this.$router.push('/')
+    },
+    add(){
+      this.$router.push('/newItem')
+    }
+  },
+  computed: {
+    menuItems(){
+      let menuItems = []
+      menuItems = [
+        {title: "Shuqbara", link: "/" },
+          { title: "New Item", link: "/newItem" },
+          { title: "Items", link: "/items" },
+          { title: "Restock", link: "/restock" },
+          { title: "Activity", link: "/activity"}
+
+        ]
+      return menuItems
     }
   }
+}
 </script>

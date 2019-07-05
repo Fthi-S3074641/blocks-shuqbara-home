@@ -1,8 +1,8 @@
 <template>
      <v-app style="background: rgba(0,0,0,0);">
     <v-flex xs8 offset-xs2>
-      <v-card>
-        <v-layout row class="primary mt-2">
+      <v-card >
+        <v-layout row style="background: rgba(0,0,0,0);">
           <v-flex xs8 offset-xs2>
             <h2 class="mt-2 mb-2 white--text">Add New Item</h2>
           </v-flex>

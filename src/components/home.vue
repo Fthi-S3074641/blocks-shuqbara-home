@@ -12,7 +12,7 @@
       <br>
 <v-divider />
 <br>
-<div style="padding-bottom: 150px;">
+<div style="padding-bottom: 300px;">
       <v-btn outline class="white--text" @click="$router.push('/newItem')"> Try Shuqbara 1.0</v-btn>
       </div>
       <br>

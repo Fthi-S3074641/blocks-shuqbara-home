@@ -1,10 +1,10 @@
-<template>
+<template style="background: rgba(0,0,0,0);">
      <v-app style="background: rgba(0,0,0,0);">
     <v-flex xs8 offset-xs2>
       <v-card >
         <v-layout row style="background: rgba(0,0,0,0);">
           <v-flex xs8 offset-xs2>
-            <h2 class="mt-2 mb-2 white--text">Add New Item</h2>
+            <h2 class="mt-2 mb-2 black--text">Register New Item</h2>
           </v-flex>
         </v-layout>
         <v-layout row mt-2>

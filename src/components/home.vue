@@ -15,10 +15,9 @@
 <div style="padding-bottom: 300px;">
       <v-btn outline class="white--text" @click="$router.push('/newItem')"> Try Shuqbara 1.0</v-btn>
         <v-btn
-        href="https://github.com/Fthi-S3074641/blocks-shuqbara"
       class="white--text"
-      outline    
-      icon
+      outline
+      href="https://github.com/Fthi-S3074641/blocks-shuqbara"
       >
       <v-icon left>github</v-icon>
       Github

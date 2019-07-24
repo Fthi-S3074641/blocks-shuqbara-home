@@ -14,6 +14,15 @@
 <br>
 <div style="padding-bottom: 300px;">
       <v-btn outline class="white--text" @click="$router.push('/newItem')"> Try Shuqbara 1.0</v-btn>
+        <v-btn
+        href="https://github.com/Fthi-S3074641/blocks-shuqbara"
+      class="white--text"
+      outline    
+      icon
+      >
+      <v-icon left>fab fa-github</v-icon>
+      Github
+    </v-btn>
       </div>
       <br>
     </v-layout>

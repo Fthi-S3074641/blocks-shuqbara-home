@@ -20,7 +20,7 @@
       outline    
       icon
       >
-      <v-icon left>fab fa-github</v-icon>
+      <v-icon left>github</v-icon>
       Github
     </v-btn>
       </div>

@@ -5,9 +5,6 @@ import App from './App.vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
 import router from './router'
-import VueFirestore from 'vue-firestore'
-
-Vue.use(VueFirestore)
 
 Vue.use(Vuetify, {
   theme: {

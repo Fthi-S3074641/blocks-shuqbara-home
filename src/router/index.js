@@ -11,6 +11,11 @@ export default new Vrouter({
             path: '/',
             name: 'home',
             component: home
+        },
+        {
+            path: '/home',
+            name: 'link',
+            component: home
         }
     ]
 })

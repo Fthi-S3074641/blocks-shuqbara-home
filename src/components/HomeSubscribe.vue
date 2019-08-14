@@ -1,4 +1,5 @@
 <template>
+<section>
   <v-container
     id="subscribe"
     tag="section"
@@ -18,8 +19,8 @@
               Subscribe
             </div>
             <p>
-              Enter your email address to subscribe to this blog
-              and receive notifications of new posts by email.
+              Enter your email address to subscribe to our Website
+              and receive notifications of useful information by email.
             </p>
 
             <v-layout
@@ -41,11 +42,11 @@
               </v-btn>
             </v-layout>
           </v-flex>
-          <v-flex xs12 md6 offset-md1   >
+          <v-flex xs12 md5 offset-md2 >
               <v-card flat class="transparent">
-                <v-card-title primary-title class="layout justify-left">
-                  <div class="headline">Contact us</div>
-                </v-card-title>
+                <div primary-title class="layout justify-left">
+                  <div class="headline mt-5">Contact us</div>
+                </div>
                 <v-list class="transparent">
                   <v-list-tile>
                     <div>
@@ -82,4 +83,5 @@
       </v-container>
     </v-flex>
   </v-container>
+  </section>
 </template>

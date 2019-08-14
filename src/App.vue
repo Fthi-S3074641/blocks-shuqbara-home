@@ -6,11 +6,12 @@
 
         <HomeAdvertise />
 
-        <HomeInformation />
-
         <HomeGetstarted />
 
+        <HomeInformation />
+        
         <HomeSubscribe />
+
 
         <HomeFooter />
 

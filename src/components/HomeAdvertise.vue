@@ -54,7 +54,7 @@
                       <div class="headline">Computer Graphics</div>
                     </v-card-title>
                     <v-card-text>
-                    We work in partner with a CGI start up for our clients interested in 2D & 3D Animation videos, Logo, Poster and Banner productions. On request we conduct a training for a special CGI tools including Blender and Adobe products.
+                    We work in partner with a CGI startup team for our clients interested in 2D & 3D Animation videos, Logo, Poster and Banner productions. On request we conduct a training for a special CGI tools including Blender and Adobe products.
                     </v-card-text>
                   </v-card>
               </v-flex>

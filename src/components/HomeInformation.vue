@@ -15,7 +15,7 @@
                   <img
                     class="align-left"
                     height="100%"
-                    :src="require('@/assets/home/vuetify.png')"
+                    :src="'https://raw.githubusercontent.com/Fthi-S3074641/aksumitetours/master/vuetify.png'"
                   />
                     </div>
                     <v-card-text>

@@ -20,7 +20,7 @@
           <v-img
             v-if="post.src"
             height="100%"
-            :src="require(`@/assets/instagram/${post.src}`)"
+            :src="'https://raw.githubusercontent.com/Fthi-S3074641/aksumitetours/master/vuetify.png'"
           />
         </v-card>
       </v-flex>

@@ -19,7 +19,7 @@
                   />
                     </div>
                     <v-card-text>
-                     Shuqbara inspired by its name is a small oraganization with few team mebers. 
+                     EasyGate inspired by its name is a small oraganization with few team mebers. 
                 It is determined to deliver small software products for small buisness owners to facilitate their daily buiesness interactions.
                 Additionally, we work on e-commerce and digital advertising.
                 

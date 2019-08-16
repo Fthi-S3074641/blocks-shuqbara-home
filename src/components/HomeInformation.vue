@@ -7,7 +7,7 @@
             <v-flex xs12 md8>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-left">
-                  <div class="headline">Shuqbara Technology</div>
+                  <div class="headline">EasyGate Technology</div>
                 </v-card-title>
                 <v-list class="transparent" style="padding-top: 100px; margin-right: 50px;">
                   <v-list-tile>

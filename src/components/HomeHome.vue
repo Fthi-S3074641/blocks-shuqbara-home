@@ -11,7 +11,7 @@
                         :src="'https://raw.githubusercontent.com/Fthi-S3074641/aksumitetours/master/vuetify.png'"
                               
                       />
-                    <div class="display-3 font-weight-black white--text text-xs-center">EASY GET TECHNOLOGY</div>
+                    <div class="display-3 font-weight-black white--text text-xs-center">EASYGATE TECHNOLOGY</div>
                     <div class="display-1 white--text text-xs-center mb-3">MOBILE APPS | WEB DESIGN | CGI PRODUCTS</div>
                   <v-btn fab 
                   class="mt-5 brown darken-4"
